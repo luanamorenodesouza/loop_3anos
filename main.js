@@ -8,8 +8,8 @@ function verificarTime() {
     var respostaTime = prompt("QUAL O PAIS COM O MIOR PIB?");
 
     
-    if (respostaTime.toLowerCase() === " 26,9 trilhoẽs de doláres ") {
-      alert("ESTADOS UNIDOS ");
+    if (respostaTime.toLowerCase() === " ESTADOS UNIDOS  ") {
+      alert("26,9 trilhoẽs de doláres ");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
       alert("Não é isso! Tente novamente.");
